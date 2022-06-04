@@ -64,32 +64,35 @@ div.container {
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 
 div.links {
-  background-color: #eb5e28;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid rgb(250, 240, 222);
-  padding: 5px;
+  width: 49%;
 }
 
+div.links img {
+  width: 90%;
+  padding: 10px;
+}
 div.links a {
+  width: 80%;
   padding: 5px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  background-color: #eb5e28;
+  text-align: center;
 }
 div.links a:hover {
   text-decoration: underline;
 }
-div.links img {
-  width: 100%;
-}
-div.links img:hover {
-  opacity: 0.8;
-}
+
 /* FOOTER */
 footer {
   display: flex;
