@@ -152,6 +152,9 @@ div.foot {
   p.blog {
     opacity: 0;
   }
+  div.links {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   nav {
@@ -182,5 +185,8 @@ div.foot {
   }
   p.blog {
     color: white;
+  }
+  div.links {
+    width: 100%;
   }
 }
